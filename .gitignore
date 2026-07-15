@@ -1,0 +1,34 @@
+# Gradle / Android
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+
+# macOS
+.DS_Store
+
+# Backend local state
+backend/*.db
+backend/media/
+backend/__pycache__/
+backend/**/*.pyc
+
+# Python environments
+backend/.venv/
+backend/venv/
+backend/.venv-demucs/
+
+# Secrets
+.env
+backend/.env
+
+# Logs
+*.log
